@@ -31,8 +31,7 @@ Para a construção técnica deste projeto, foi adotada uma abordagem fundamenta
 
 ## Demonstração Online
 
-(Adicione o link de produção/GitHub Pages aqui após o deploy)
-Exemplo: [https://seu-usuario.github.io/solara](https://seu-usuario.github.io/solara)
+https://dariojunio.github.io/solara/
 
 ## Estrutura do Diretório
 
