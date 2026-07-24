@@ -1,44 +1,84 @@
-# SOLARA — Sua Essência Solar ☀️
+# SOLARA | Landing Page para Marca de Cosméticos
 
-Bem-vindo ao repositório do **Solara**, um projeto de landing page fictícia desenvolvido para demonstrar minhas habilidades em desenvolvimento front-end, design de interfaces e criação de experiências web envolventes.
+SOLARA é uma landing page fictícia desenvolvida com o objetivo de demonstrar minhas habilidades em desenvolvimento front-end, design de interfaces e construção de experiências web modernas.
 
-## 🎯 Propósito do Projeto
+## Sobre o projeto
 
-O objetivo principal deste projeto foi criar uma interface premium e minimalista para uma marca (fictícia) de produtos solares. Eu queria fugir do padrão visual comum e focar em transmitir uma sensação de **elegância, calma e cuidado premium com a pele**.
+Este projeto foi concebido para representar a identidade visual de uma marca premium de produtos solares. A proposta foi desenvolver uma interface minimalista, elegante e responsiva, priorizando uma experiência visual agradável e uma navegação fluida.
 
-Este site foi construído para ser uma peça de destaque no meu portfólio, demonstrando minha capacidade de:
-- Traduzir conceitos de marca e referências visuais em código real.
-- Criar layouts modernos sem depender de frameworks (CSS puro).
-- Implementar micro-interações e animações que melhoram a experiência do usuário sem sobrecarregar a performance.
-- Garantir responsividade fluida em diferentes tamanhos de tela.
+O desenvolvimento buscou transformar conceitos de branding em uma aplicação real, utilizando apenas tecnologias nativas da web, sem o uso de frameworks CSS.
 
-## 🎨 O Design e a Explicação Visual
+## Objetivos
 
-A direção de arte foi inspirada na estética do verão, com toques terrosos e naturais. 
+Durante o desenvolvimento, o foco foi em:
 
-**Decisões de Design:**
-- **Paleta de Cores:** Utilizei tons de creme (`#FAF5EF`), areia (`#E8D5C0`), pêssego (`#F2C4A0`) e terracota (`#C47A52`). Essa paleta remete imediatamente à praia, ao pôr do sol e à pele saudável, criando uma atmosfera quente e acolhedora.
-- **Tipografia:** A combinação da fonte serifada elegante *Playfair Display* (para títulos e logotipo) com a moderna *Inter* (para textos) cria um contraste sofisticado, comum em marcas de cosméticos de alto padrão.
-- **Glassmorphism:** A barra de navegação ganha um efeito de vidro fosco (blur) ao rolar a página, mantendo-se fixa sem bloquear de forma bruta o conteúdo que passa por baixo.
-- **Animações (Scroll Reveal):** Os elementos surgem suavemente na tela à medida que o usuário rola a página (*fade-up*), o que dá vida ao layout e guia a leitura de forma agradável.
+* Construção de uma interface moderna e responsiva.
+* Aplicação de boas práticas de HTML semântico.
+* Organização e escalabilidade do CSS.
+* Implementação de animações sutis para melhorar a experiência do usuário.
+* Desenvolvimento com foco em performance e manutenção.
 
-## 💻 Decisões Técnicas
+## Tecnologias utilizadas
 
-Para este projeto, optei pela abordagem **Vanilla (HTML5 e CSS3)**:
-- **CSS Grid e Flexbox:** Utilizados extensivamente para criar o layout assimétrico e moderno das seções de produtos (como a seção "After Sun", que usa um grid customizado para alinhar as fotos).
-- **CSS Custom Properties (Variáveis):** Toda a paleta de cores, espaçamentos e fontes foram tokenizados no `:root`. Isso manteve o código limpo, consistente e fácil de manter.
-- **Performance e SEO:** A estrutura HTML é semântica e leve. Adicionei também as *Meta Tags (Open Graph)* para garantir que, ao compartilhar o link do projeto, uma prévia bonita com a imagem de capa seja exibida nas redes sociais.
+* HTML5
+* CSS3
+* JavaScript
 
-## 🚀 Live Demo
+## Principais recursos
 
-*(Adicione o link do GitHub Pages aqui após o deploy)*
-🔗 **[Ver o site online](https://seu-usuario.github.io/solara)**
+* Layout totalmente responsivo.
+* Estrutura HTML semântica.
+* CSS Grid e Flexbox para composição do layout.
+* CSS Custom Properties para gerenciamento do Design System.
+* Navegação fixa com efeito Glassmorphism durante o scroll.
+* Animações de entrada dos elementos conforme a rolagem da página.
+* Estrutura otimizada para compartilhamento em redes sociais utilizando Open Graph.
 
-## 📁 Estrutura de Arquivos
+## Design
 
-- `index.html`: A estrutura semântica da página.
-- `index.css`: O "motor" visual do projeto, contendo o Design System e todas as regras de estilo e animação.
-- `imgs/`: Diretório contendo as imagens otimizadas utilizadas no layout.
+A identidade visual foi inspirada em elementos relacionados ao verão e ao cuidado com a pele.
 
----
-*Este projeto foi desenvolvido com dedicação e atenção aos detalhes como parte do meu portfólio de desenvolvimento Front-end.*
+### Paleta de cores
+
+A interface utiliza tons suaves e naturais para transmitir leveza e sofisticação.
+
+* Creme (#FAF5EF)
+* Areia (#E8D5C0)
+* Pêssego (#F2C4A0)
+* Terracota (#C47A52)
+
+### Tipografia
+
+Foram utilizadas duas famílias tipográficas para criar contraste visual:
+
+* Playfair Display para títulos.
+* Inter para textos e elementos de interface.
+
+## Estrutura do projeto
+
+```text
+.
+├── index.html
+├── index.css
+├── script.js
+└── imgs/
+```
+
+## Demonstração
+
+Acesse a versão publicada do projeto:
+
+> https://dariojunio.github.io/solara/
+
+## Aprendizados
+
+Este projeto permitiu aprofundar conhecimentos em:
+
+* Estruturação de layouts complexos utilizando CSS Grid.
+* Organização de estilos através de variáveis CSS.
+* Criação de microinterações utilizando JavaScript.
+* Desenvolvimento de interfaces responsivas com foco em usabilidade.
+
+## Autor
+
+Desenvolvido por **Dário Junio** como parte do meu portfólio de projetos Front-end.
